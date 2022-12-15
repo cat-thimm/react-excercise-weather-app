@@ -1,0 +1,243 @@
+body {
+  margin: 0;
+  font-family: "Poppins";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  background-color: rgba(21, 32, 43, 0.9);
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.row-start {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.app__title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.app__header {
+  margin: 20px;
+}
+
+.add-place {
+  background-color: rgba(21, 32, 43, 1);
+  width: 550px;
+  margin-left: 150px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.add-place__header {
+  font-size: 24px;
+  margin: 20px;
+}
+
+.add-place__info-text {
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.add-place__input-row {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.add-place__input {
+  background-color: rgba(6, 9, 12, 0.5);
+  border: 0px;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 400;
+  outline: none;
+  margin-left: 20px;
+  color: white;
+}
+
+.add-place__notice {
+  font-size: 14px;
+  color: red;
+  margin-left: 85px;
+  margin-top: 5px;
+}
+
+.add-place__button {
+  cursor: pointer;
+  font-family: "Poppins";
+  font-size: 18px;
+  margin-left: 20px;
+  background-color: rgba(224, 36, 94, 1);
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.btn:disabled,
+button[disabled] {
+  background-color: rgba(224, 36, 94, 0.5);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.place-list {
+  background-color: rgba(21, 32, 43, 1);
+  width: 550px;
+  height: auto;
+  margin-left: 150px;
+  margin-top: 25px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+}
+
+.place-list__header {
+  font-size: 24px;
+  margin: 20px;
+}
+
+.place-list__entry {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 350px;
+  height: 40px;
+  background-color: rgba(6, 9, 12, 0.5);
+}
+
+.place-list__entry-text {
+  line-height: 40px;
+  text-align: start;
+  margin-left: 10px;
+  vertical-align: middle;
+  color: white;
+  text-decoration: none;
+}
+
+.place-list__icon {
+  margin-left: 10px;
+  cursor: pointer;
+  color: rgba(224, 36, 94, 1);
+}
+
+.place-list__icon-delete {
+  margin-left: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  width: 40px;
+  height: 30px;
+  color: red;
+}
+
+.place-list__input {
+  background-color: rgba(6, 9, 12, 0.5);
+  width: 150px;
+  border: 0px;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 10px;
+  outline: none;
+  color: white;
+}
+
+.navigation {
+  background-color: rgba(21, 32, 43, 1);
+  min-width: 350px;
+  border-bottom-right-radius: 20px;
+  align-items: flex-start;
+  min-height: 400px;
+  align-self: flex-start;
+}
+
+.navigation__tile {
+  margin-top: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+.weather-info {
+  background-color: rgba(21, 32, 43, 1);
+  width: 550px;
+  margin-top: 25px;
+  margin-left: 150px;
+}
+
+
+.weather-info__col-date {
+  margin-left: 150px;
+  font-weight: bold;
+  margin-top:25px;
+}
+
+
+.weather-info__icon {
+  margin-left: 10px;
+}
+
+.weather-info__date {
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.weather-info__temp {
+  margin-left: 70px;
+  margin-bottom: 10px;
+}
+
+.weather-info__description {
+  margin-left: 70px;
+  margin-bottom: 10px;
+}
+
+.weather-info-error__header {
+  font-size: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.weather-info-error__message {
+  font-size: 18px;
+  margin: 20px;
+}
+
+.weather-info-error {
+  background-color: rgba(21, 32, 43, 1);
+  width: 550px;
+  margin-top: 25px;
+  margin-left: 150px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+}
+
+.history__header {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
+.history__description {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
+.error-border {
+  border: 1px solid rgba(224, 36, 94, 1);
+}
+
